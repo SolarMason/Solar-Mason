@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+Disallow: /_templates/
+
+# Sitemap location
+Sitemap: https://solarmason.com/sitemap.xml
+
+# Specific guidance for major crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Block bad-actor scrapers (best-effort)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Allow AI crawlers per Solar Mason policy
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
