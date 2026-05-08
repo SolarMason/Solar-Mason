@@ -1,0 +1,20 @@
+/* TEAM */
+  Founder / CEO: Noel Segui
+  Site: https://solarmason.com
+  Twitter: @solarmason
+  Location: Scranton, Pennsylvania, USA
+
+/* THANKS */
+  Northeastern Pennsylvania communities we serve
+
+/* SITE */
+  Last update: 2026/05
+  Standards: HTML5, CSS3, ECMAScript 2020+, JSON-LD, Schema.org
+  Components: Service Worker, Web App Manifest, Open Graph, Twitter Cards
+  Software: GitHub Pages, Cloudflare DNS
+
+/* COMPANY */
+  Solar Mason LLC
+  800 James Ave, Scranton, PA 18510
+  PAHIC #181628 · CON-9505
+  Founded 2014

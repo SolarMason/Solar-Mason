@@ -1,555 +1,1201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://solarmason.com/about-pv/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/about-pv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/about-pv/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/about-us/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/about-us/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/about-us/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/battery-storage/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/battery-storage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/battery-storage/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/c-pace/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/c-pace/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/c-pace/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/battery-runtime/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/battery-runtime/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/battery-runtime/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/battery-sizing/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/battery-sizing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/battery-sizing/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/bill-analyzer/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/bill-analyzer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/bill-analyzer/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/bill-offset/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/bill-offset/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/bill-offset/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/c-pace-calc/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/c-pace-calc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/c-pace-calc/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/carport/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/carport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/carport/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/conductor-sizing/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/conductor-sizing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/conductor-sizing/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/conduit-fill/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/conduit-fill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/conduit-fill/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/critical-load/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/critical-load/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/critical-load/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/dc-ac-ratio/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/dc-ac-ratio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/dc-ac-ratio/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/demand-charge/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/demand-charge/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/demand-charge/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/design-studio/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/design-studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/design-studio/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/enphase-planner/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/enphase-planner/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/enphase-planner/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/ev-charging-load/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/ev-charging-load/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/ev-charging-load/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/financial-projection/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/financial-projection/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/financial-projection/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/financing-comparison/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/financing-comparison/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/financing-comparison/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/ground-mount/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/ground-mount/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/ground-mount/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/incentive-timeline/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/incentive-timeline/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/incentive-timeline/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/lcoe/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/lcoe/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/lcoe/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/lease/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/lease/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/lease/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/loan-payment/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/loan-payment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/loan-payment/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/macrs/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/macrs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/macrs/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/panel-layout/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/panel-layout/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/panel-layout/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/ppa/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/ppa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/ppa/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/resiliency/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/resiliency/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/resiliency/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/roof-mount/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/roof-mount/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/roof-mount/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/solar-production/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/solar-production/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/solar-production/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/solar-storage/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/solar-storage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/solar-storage/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/solaredge-planner/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/solaredge-planner/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/solaredge-planner/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/string-sizing/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/string-sizing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/string-sizing/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/system-size/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/system-size/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/system-size/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/calculators/voltage-drop/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/voltage-drop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/voltage-drop/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/carports/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/carports/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/carports/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/certification/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/certification/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/certification/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/civil-construction/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/civil-construction/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/civil-construction/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/civil-engineering/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/civil-engineering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/civil-engineering/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/commercial-services/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/commercial-services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/commercial-services/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/creating-proforma/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/creating-proforma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/creating-proforma/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/datasheets/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/datasheets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/datasheets/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/design/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/design/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/electrical-construction/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/electrical-construction/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/electrical-construction/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/electrical-engineering/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/electrical-engineering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/electrical-engineering/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/enphase-micro-inverters/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/enphase-micro-inverters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/enphase-micro-inverters/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/equipment-financing/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/equipment-financing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/equipment-financing/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/ev-charging/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/ev-charging/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/ev-charging/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/faq/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/faq/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/general-counsel/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/general-counsel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/general-counsel/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/hr-5376-ira-inestment-tax-credit/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/hr-5376-ira-inestment-tax-credit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/hr-5376-ira-inestment-tax-credit/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/investor-relations/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/investor-relations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/investor-relations/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/invoice-financing/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/invoice-financing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/invoice-financing/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/ironridge-roof-racking/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/ironridge-roof-racking/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/ironridge-roof-racking/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/irs-direct-pay/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/irs-direct-pay/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/irs-direct-pay/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/irs-macrs/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/irs-macrs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/irs-macrs/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/line-of-credit/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/line-of-credit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/line-of-credit/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/long-term-loan/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/long-term-loan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/long-term-loan/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/maintenance/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/maintenance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/maintenance/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/mechanical-construction/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/mechanical-construction/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/mechanical-construction/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/net-metering/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/net-metering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/net-metering/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/news/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/news/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/news/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/partner-program/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/partner-program/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/partner-program/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/permit-plan-set/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/permit-plan-set/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/permit-plan-set/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/post/how-to-prepare-your-home-for-storm-resistant-solar-a-comprehensive-guide-for-nepa-homeowners/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/post/how-to-prepare-your-home-for-storm-resistant-solar-a-comprehensive-guide-for-nepa-homeowners/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/post/how-to-prepare-your-home-for-storm-resistant-solar-a-comprehensive-guide-for-nepa-homeowners/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/post/severe-storms-leave-half-a-million-without-power-across-northeastern-states/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/post/severe-storms-leave-half-a-million-without-power-across-northeastern-states/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/post/severe-storms-leave-half-a-million-without-power-across-northeastern-states/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/post/srectrade-everything-you-need-to-know-about-the-leading-srec-aggregator-1/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/post/srectrade-everything-you-need-to-know-about-the-leading-srec-aggregator-1/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/post/srectrade-everything-you-need-to-know-about-the-leading-srec-aggregator-1/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/ppl-message/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/ppl-message/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/ppl-message/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/procurement/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/procurement/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/procurement/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/q-cell-solar-panels/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/q-cell-solar-panels/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/q-cell-solar-panels/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/real-estate/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/real-estate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/real-estate/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/receivable-financing/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/receivable-financing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/receivable-financing/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/residential-finance/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/residential-finance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/residential-finance/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/residential-services/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/residential-services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/residential-services/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/sba-loan/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/sba-loan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/sba-loan/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/sems-avans-racking-system/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/sems-avans-racking-system/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/sems-avans-racking-system/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/shop/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/shop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/shop/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/short-term-loan/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/short-term-loan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/short-term-loan/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/site-survey/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/site-survey/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/site-survey/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/solar-inspection/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/solar-inspection/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/solar-inspection/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/solar-pv-degree/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/solar-pv-degree/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/solar-pv-degree/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/solar-pv-incentive-search/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/solar-pv-incentive-search/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/solar-pv-incentive-search/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/solaredge-string-inverters/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/solaredge-string-inverters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/solaredge-string-inverters/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/srec/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/srec/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/srec/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/structural-engineering/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/structural-engineering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/structural-engineering/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/usda-reap-grant/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/usda-reap-grant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/usda-reap-grant/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/utility-scale/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/utility-scale/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/utility-scale/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/working-capital-bridge/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/working-capital-bridge/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/working-capital-bridge/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://solarmason.com/yeild-optimization/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://solarmason.com/yeild-optimization/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://solarmason.com/yeild-optimization/"/>
+    <image:image>
+      <image:loc>https://solarmason.com/assets/og-card.png</image:loc>
+      <image:title>Solar Mason — Solar EPC Contractor in NEPA</image:title>
+      <image:caption>Licensed and insured solar EPC contractor serving Northeastern Pennsylvania</image:caption>
+    </image:image>
   </url>
 </urlset>
