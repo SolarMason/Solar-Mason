@@ -3,8 +3,80 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Utility Bill Solar Sizing Analyzer | Solar Mason</title>
-<meta name="description" content="Upload your utility bill PDF and get an instant solar sizing analysis with production estimates, cost projections, and a professional report.">
+<title>Solar Bill Analyzer | Upload Your Utility Bill</title>
+<!-- ─── Open Graph / Social Share ─── -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Solar Mason">
+<meta property="og:title" content="Solar Bill Analyzer | Upload Your Utility Bill">
+<meta property="og:description" content="Upload your PPL, FirstEnergy, or PA utility bill for instant solar system sizing and savings analysis. Free, no signup required.">
+<meta property="og:url" content="https://solarmason.com/calculators/bill-analyzer/">
+<meta property="og:image" content="https://solarmason.com/assets/og-card.png">
+<meta property="og:image:secure_url" content="https://solarmason.com/assets/og-card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Solar Mason — Noel Segui, CEO. 800 James Ave, Scranton PA 18510. (570) MY-SOLAR. PAHIC #181628.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Solar Bill Analyzer | Upload Your Utility Bill">
+<meta name="twitter:description" content="Upload your PPL, FirstEnergy, or PA utility bill for instant solar system sizing and savings analysis. Free, no signup required.">
+<meta name="twitter:image" content="https://solarmason.com/assets/og-card.png">
+<meta name="twitter:image:alt" content="Solar Mason — Licensed &amp; Insured Solar EPC Contractor in NEPA">
+<link rel="canonical" href="https://solarmason.com/calculators/bill-analyzer/">
+<link rel="alternate" type="text/markdown" title="LLM-friendly summary" href="https://solarmason.com/llms.txt">
+<link rel="author" href="/humans.txt">
+<link rel="me" href="https://solarmason.com">
+<!-- ─── Favicon & PWA Icons ─── -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16"  href="/assets/icons/icon-16.png">
+<link rel="icon" type="image/png" sizes="32x32"  href="/assets/icons/icon-32.png">
+<link rel="icon" type="image/png" sizes="48x48"  href="/assets/icons/icon-48.png">
+<link rel="icon" type="image/png" sizes="96x96"  href="/assets/icons/icon-96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/icon-512.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152.png">
+<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#2D82BE">
+
+<!-- ─── PWA Manifest & Theme ─── -->
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#2D82BE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1d6699" media="(prefers-color-scheme: dark)">
+<meta name="application-name" content="Solar Mason">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Solar Mason">
+<meta name="msapplication-TileColor" content="#2D82BE">
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="format-detection" content="telephone=no">
+
+<!-- ─── SEO / Crawler Directives ─── -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="bingbot" content="index, follow">
+
+<!-- ─── Authorship & Publisher ─── -->
+<meta name="author" content="Solar Mason LLC">
+<meta name="publisher" content="Solar Mason LLC">
+<meta name="copyright" content="© 2006–2026 Solar Mason LLC. All rights reserved.">
+<meta name="rating" content="General">
+<meta name="distribution" content="global">
+
+<!-- ─── Geo / Local SEO ─── -->
+<meta name="geo.region" content="US-PA">
+<meta name="geo.placename" content="Scranton, Pennsylvania">
+<meta name="geo.position" content="41.40872;-75.66241">
+<meta name="ICBM" content="41.40872, -75.66241">
+
+<!-- ─── Performance Hints ─── -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//www.chatbase.co">
+
+
+<meta name="description" content="Upload your PPL, FirstEnergy, or PA utility bill for instant solar system sizing and savings analysis. Free, no signup required.">
 <link rel="icon" href="https://static.wixstatic.com/media/4dcc05_c778003a773a4844ba6c8806c92c7583~mv2.png/v1/fill/w_32,h_32,al_c,q_85/1.png">
 <style>
 /* ═══════════════════════════════════════════
@@ -3479,6 +3551,18 @@ html { scroll-behavior: smooth; }
   }
 }
 </style>
+
+<!-- ─── Structured Data (JSON-LD) ─── -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://solarmason.com/#organization","name":"Solar Mason LLC","alternateName":"Solar Mason","url":"https://solarmason.com/","logo":{"@type":"ImageObject","url":"https://solarmason.com/assets/icons/icon-512.png","width":512,"height":512},"image":"https://solarmason.com/assets/og-card.png","description":"Northeastern Pennsylvania's full-service solar EPC contractor. Engineering, Procurement, and Construction delivered turn-key.","telephone":"+1-570-697-6527","email":"hello@solarmason.com","foundingDate":"2014","founder":{"@type":"Person","name":"Noel Segui","jobTitle":"CEO / Founder"},"address":{"@type":"PostalAddress","streetAddress":"800 James Ave","addressLocality":"Scranton","addressRegion":"PA","postalCode":"18510","addressCountry":"US"},"sameAs":["https://facebook.com/solarmason","https://instagram.com/solarmason","https://linkedin.com/company/solar-mason","https://youtube.com/@solarmason"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","@id":"https://solarmason.com/calculators/bill-analyzer/#webpage","url":"https://solarmason.com/calculators/bill-analyzer/","name":"Utility Bill Solar Sizing Analyzer | Solar Mason","description":"Upload your utility bill PDF and get an instant solar sizing analysis with production estimates, cost projections, and a professional report.","isPartOf":{"@id":"https://solarmason.com/#website"},"about":{"@id":"https://solarmason.com/#organization"},"inLanguage":"en-US"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://solarmason.com/"},{"@type":"ListItem","position":2,"name":"Utility Bill Solar Sizing Analyzer | Solar Mason","item":"https://solarmason.com/calculators/bill-analyzer/"}]}</script>
+
+<!-- ─── SEO Boost: Service + FAQ + Speakable ─── -->
+<meta name="keywords" content="solar Pennsylvania, solar NEPA, solar Scranton, solar Wilkes-Barre, solar Hazleton, solar Stroudsburg, solar Allentown, solar Bethlehem, solar Poconos, solar Lehigh Valley, solar EPC contractor PA, Solar Mason, Noel Segui, PAHIC 181628, solar Scranton, solar Wilkes-Barre, solar Hazleton, solar Stroudsburg, solar Allentown, solar Bethlehem, solar Easton, solar Pottsville">
+<meta name="news_keywords" content="solar Pennsylvania, solar NEPA, solar Scranton, solar Wilkes-Barre, solar Hazleton, solar Stroudsburg, solar Allentown, solar Bethlehem, solar Poconos, solar Lehigh Valley, solar EPC contractor PA, Solar Mason, Noel Segui, PAHIC 181628, solar Scranton, solar Wilkes-Barre, solar Hazleton, solar Stroudsburg, solar Allentown, solar Bethlehem, solar Easton, solar Pottsville">
+<link rel="alternate" hreflang="en-US" href="https://solarmason.com/calculators/bill-analyzer/">
+<link rel="alternate" hreflang="x-default" href="https://solarmason.com/calculators/bill-analyzer/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","@id":"https://solarmason.com/calculators/bill-analyzer/#speakable","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","h2","[data-speakable]",".hero-h1",".hero-sub"]},"url":"https://solarmason.com/calculators/bill-analyzer/"}</script>
 </head>
 <body>
 
@@ -4153,21 +4237,6 @@ html { scroll-behavior: smooth; }
   <h3>Upload Your Utility Bill</h3>
   <p>Drag & drop a PDF here or click to browse. Your bill is processed entirely in your browser — nothing is sent to a server.</p>
   <input type="file" id="fileInput" accept="application/pdf">
-</div>
-
-<div style="text-align:center;padding:.75rem 0;color:#94a3b8;font-size:.82rem;font-weight:600;letter-spacing:.06em">— OR —</div>
-
-<div style="background:rgba(255,255,255,.7);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.6);border-radius:18px;padding:1.5rem;margin-bottom:1.25rem">
-  <h3 style="font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:.75rem">Estimate by Address Only</h3>
-  <p style="font-size:.82rem;color:#64748b;margin-bottom:1rem;line-height:1.5">Don't have your bill handy? Enter your address and we'll estimate based on regional averages for your area.</p>
-  <div class="az-opt-row">
-    <div class="az-field" style="flex:2"><label>Project Address</label><input type="text" id="addrOnlyInput" placeholder="Type your address" autocomplete="off" style="width:100%;padding:.65rem .85rem;border:1px solid rgba(0,0,0,.12);border-radius:10px;font-size:.88rem"></div>
-    <div class="az-field"><label>Account Type</label><select id="addrOnlyType" style="padding:.65rem .85rem;border:1px solid rgba(0,0,0,.12);border-radius:10px;font-size:.88rem"><option value="residential">Residential</option><option value="commercial">Commercial</option></select></div>
-  </div>
-  <div class="az-opt-row" style="margin-top:.5rem">
-    <div class="az-field"><label>Est. Annual Usage (kWh)</label><input type="number" id="addrOnlyKwh" value="10500" min="1000" max="500000" step="500" style="padding:.65rem .85rem;border:1px solid rgba(0,0,0,.12);border-radius:10px;font-size:.88rem"><span style="font-size:.72rem;color:#94a3b8;margin-top:.2rem;display:block">PA residential avg: ~10,500 kWh/yr</span></div>
-    <div class="az-field" style="display:flex;align-items:flex-end"><button onclick="runAddressOnlyEstimate()" style="width:100%;padding:.7rem 1.5rem;border-radius:100px;border:none;background:linear-gradient(135deg,var(--brand,#2D82BE),#1B5E8A);color:#fff;font-size:.9rem;font-weight:700;cursor:pointer;box-shadow:0 6px 20px rgba(45,130,190,.25)">Free Estimate</button></div>
-  </div>
 </div>
 
 <div class="az-status" id="status">⏳ Analyzing your utility bill...</div>
@@ -5281,5 +5350,16 @@ function shareProposal(){doShare();}
   </div>
 </div>
 
+
+<!-- ─── Service Worker Registration (PWA) ─── -->
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
+      .then(function(reg) { /* registered */ })
+      .catch(function(err) { console.warn('SW registration failed:', err); });
+  });
+}
+</script>
 </body>
 </html>
