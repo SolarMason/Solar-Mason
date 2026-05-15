@@ -4254,6 +4254,29 @@ html, body { background-attachment: scroll !important; }
 .ds-map-hint.show{opacity:1}
 .ds-map-hint-row{display:inline-flex;align-items:center;gap:.4rem;white-space:nowrap}
 .ds-map-hint-row svg{flex-shrink:0;opacity:.85}
+/* ═══ ARRAY ROTATION DIAL ═══ */
+.ds-rotator-panel{position:absolute;top:1rem;right:4.75rem;z-index:51;background:rgba(255,255,255,.98);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(11,37,69,.12);border-radius:16px;padding:1rem;box-shadow:0 12px 40px rgba(15,23,42,.22);width:248px;animation:dsRotIn .22s ease-out}
+@keyframes dsRotIn{from{opacity:0;transform:translateX(8px) scale(.96)}to{opacity:1;transform:translateX(0) scale(1)}}
+.ds-rotator-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.6rem}
+.ds-rotator-title{font-weight:800;font-size:.88rem;color:#0B2545;letter-spacing:.01em}
+.ds-rotator-close{background:transparent;border:none;font-size:1.4rem;line-height:1;cursor:pointer;color:#94a3b8;padding:0 .35rem;border-radius:6px;transition:all .15s}
+.ds-rotator-close:hover{color:#0B2545;background:#f1f5f9}
+.ds-rotator-dial-wrap{display:flex;justify-content:center;margin-bottom:.65rem;user-select:none}
+.ds-rotator-dial{width:180px;height:180px;cursor:grab;touch-action:none;-webkit-touch-callout:none}
+.ds-rotator-dial:active{cursor:grabbing}
+.ds-rotator-display{display:flex;align-items:center;justify-content:center;gap:.4rem;margin-bottom:.7rem}
+.ds-rotator-display input{width:64px;padding:.4rem .5rem;border-radius:8px;border:1.5px solid #cbd5e1;text-align:center;font-weight:800;font-size:1rem;color:#0B2545;font-family:inherit}
+.ds-rotator-display input:focus{outline:none;border-color:#2D82BE;box-shadow:0 0 0 3px rgba(45,130,190,.15)}
+.ds-rotator-unit{font-size:.78rem;color:#64748B;font-weight:600}
+.ds-rotator-cardinal{margin-left:auto;background:#0B2545;color:#fff;padding:.25rem .55rem;border-radius:6px;font-size:.72rem;font-weight:800;letter-spacing:.05em;min-width:36px;text-align:center}
+.ds-rotator-quick{display:grid;grid-template-columns:repeat(4,1fr);gap:.3rem;margin-bottom:.65rem}
+.ds-rotator-quick button{padding:.4rem .25rem;border-radius:8px;border:1.5px solid #e2e8f0;background:#fff;font-weight:800;font-size:.72rem;letter-spacing:.04em;cursor:pointer;color:#0B2545;transition:all .12s;font-family:inherit}
+.ds-rotator-quick button:hover{background:#f1f5f9;border-color:#cbd5e1;transform:translateY(-1px)}
+.ds-rotator-quick button.primary{background:#2D82BE;color:#fff;border-color:#2D82BE;box-shadow:0 2px 8px rgba(45,130,190,.3)}
+.ds-rotator-quick button.primary:hover{background:#246da3;border-color:#246da3}
+.ds-rotator-actions{display:flex}
+.ds-rotator-reset{flex:1;padding:.5rem;border-radius:8px;border:1.5px dashed #cbd5e1;background:#fff;font-weight:700;font-size:.76rem;cursor:pointer;color:#64748B;transition:all .12s;font-family:inherit}
+.ds-rotator-reset:hover{background:#f8fafc;border-color:#94a3b8;color:#0B2545}
 .fab-icon{display:flex;align-items:center;justify-content:center}
 .fab-icon svg{width:22px;height:22px}
 .fab-label{font-size:.58rem;font-weight:800;letter-spacing:.04em;line-height:1}
@@ -4446,6 +4469,9 @@ html, body { background-attachment: scroll !important; }
   /* Hint stays at bottom on mobile, smaller and more compact */
   .ds-map-hint{bottom:.75rem;font-size:.7rem;padding:.45rem .85rem;gap:.75rem;max-width:calc(100% - 1.5rem)}
   .ds-map-hint-row{font-size:.7rem}
+  /* Rotator: drop to bottom-right on mobile, slightly smaller dial */
+  .ds-rotator-panel{top:auto;bottom:.75rem;right:4.5rem;width:220px;padding:.85rem}
+  .ds-rotator-dial{width:160px;height:160px}
   /* ═══ VIEW TOGGLE ═══ */
 
 
@@ -5065,6 +5091,9 @@ body.ds-mode-ground .ds-ground-only{display:block}
       <button id="ds-recenter" onclick="dsRecenter()" style="display:none" title="Recenter on address" aria-label="Recenter on address">
         <span class="fab-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.9"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></span>
       </button>
+      <button id="ds-rotate-btn" onclick="toggleArrayRotator()" style="display:none" title="Rotate the entire array — azimuth direction" aria-label="Array rotation tool">
+        <span class="fab-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 4 L14.5 12.5 L12 11 L9.5 12.5 Z" fill="currentColor"/><path d="M12 20 L9.5 11.5 L12 13 L14.5 11.5 Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg></span>
+      </button>
       <button id="ds-fullscreen-btn" onclick="dsFullscreen()" style="display:none" title="Toggle fullscreen" aria-label="Toggle fullscreen">
         <span class="fab-icon" id="ds-fullscreen-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
       </button>
@@ -5077,6 +5106,80 @@ body.ds-mode-ground .ds-ground-only{display:block}
     <div class="ds-map-hint" id="ds-map-hint" style="display:none">
       <span class="ds-map-hint-row"><svg viewBox="0 0 24 24" width="14" height="14" fill="none"><path d="M9 11l3-3 3 3M9 7l3-3 3 3M15 13l-3 3-3-3M15 17l-3 3-3-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Click &amp; drag to pan</span>
       <span class="ds-map-hint-row"><svg viewBox="0 0 24 24" width="14" height="14" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8M8 12h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Scroll or pinch to zoom</span>
+    </div>
+    <!-- Array Rotation Tool — draggable compass dial that rotates every active panel together -->
+    <div class="ds-rotator-panel" id="ds-rotator-panel" style="display:none" role="dialog" aria-label="Array rotation tool">
+      <div class="ds-rotator-header">
+        <span class="ds-rotator-title">Array Rotation</span>
+        <button class="ds-rotator-close" onclick="toggleArrayRotator()" aria-label="Close">×</button>
+      </div>
+      <div class="ds-rotator-dial-wrap">
+        <svg class="ds-rotator-dial" id="ds-rotator-dial" viewBox="0 0 200 200" aria-label="Drag to rotate panels">
+          <!-- Outer ring -->
+          <circle cx="100" cy="100" r="92" fill="rgba(255,255,255,.95)" stroke="#0B2545" stroke-width="2"/>
+          <!-- Tick marks: every 15° -->
+          <g stroke="#0B2545" stroke-width="1" opacity=".4">
+            <line x1="100" y1="10" x2="100" y2="18"/>
+            <line x1="145" y1="22.1" x2="141.6" y2="29.1"/>
+            <line x1="177.9" y1="55" x2="170.9" y2="58.4"/>
+            <line x1="190" y1="100" x2="182" y2="100"/>
+            <line x1="177.9" y1="145" x2="170.9" y2="141.6"/>
+            <line x1="145" y1="177.9" x2="141.6" y2="170.9"/>
+            <line x1="100" y1="190" x2="100" y2="182"/>
+            <line x1="55" y1="177.9" x2="58.4" y2="170.9"/>
+            <line x1="22.1" y1="145" x2="29.1" y2="141.6"/>
+            <line x1="10" y1="100" x2="18" y2="100"/>
+            <line x1="22.1" y1="55" x2="29.1" y2="58.4"/>
+            <line x1="55" y1="22.1" x2="58.4" y2="29.1"/>
+          </g>
+          <!-- Cardinal labels -->
+          <text x="100" y="30" text-anchor="middle" font-size="14" font-weight="800" fill="#0B2545">N</text>
+          <text x="175" y="106" text-anchor="middle" font-size="14" font-weight="800" fill="#0B2545">E</text>
+          <text x="100" y="180" text-anchor="middle" font-size="14" font-weight="800" fill="#2D82BE">S</text>
+          <text x="25" y="106" text-anchor="middle" font-size="14" font-weight="800" fill="#0B2545">W</text>
+          <!-- Rotating panel-direction indicator (defaults to 180° = south) -->
+          <g id="ds-rotator-arrow" transform="rotate(180 100 100)">
+            <!-- Pale arc showing the "panels face this way" sector behind the arrow -->
+            <path d="M70 100 A30 30 0 0 1 130 100 L130 50 L70 50 Z" fill="rgba(45,130,190,.08)" stroke="none"/>
+            <!-- Main shaft from center outward -->
+            <line x1="100" y1="100" x2="100" y2="55" stroke="#2D82BE" stroke-width="5" stroke-linecap="round"/>
+            <!-- Bold arrowhead -->
+            <path d="M100 28 L114 56 L100 49 L86 56 Z" fill="#2D82BE" stroke="#1B5E8A" stroke-width="1.5" stroke-linejoin="round"/>
+            <!-- A tiny panel pictogram in the middle of the shaft, to communicate
+                 that this arrow controls panel orientation -->
+            <g transform="translate(100 78)">
+              <rect x="-10" y="-7" width="20" height="14" rx="2" fill="#1B5E8A" stroke="#fff" stroke-width="1"/>
+              <line x1="-10" y1="-2.5" x2="10" y2="-2.5" stroke="#fff" stroke-width=".6" opacity=".7"/>
+              <line x1="-10" y1="2.5" x2="10" y2="2.5" stroke="#fff" stroke-width=".6" opacity=".7"/>
+              <line x1="-3.3" y1="-7" x2="-3.3" y2="7" stroke="#fff" stroke-width=".6" opacity=".7"/>
+              <line x1="3.3" y1="-7" x2="3.3" y2="7" stroke="#fff" stroke-width=".6" opacity=".7"/>
+            </g>
+            <!-- Drag handle — invisible larger hit area on the arrow tip -->
+            <circle cx="100" cy="40" r="18" fill="rgba(0,0,0,0)" class="ds-rotator-drag-handle" style="cursor:grab"/>
+          </g>
+          <!-- Center pivot -->
+          <circle cx="100" cy="100" r="5" fill="#0B2545"/>
+          <circle cx="100" cy="100" r="2" fill="#fff"/>
+        </svg>
+      </div>
+      <div class="ds-rotator-display">
+        <input type="number" id="ds-rotator-input" min="0" max="359" value="180" step="1" aria-label="Azimuth in degrees" />
+        <span class="ds-rotator-unit">° azimuth</span>
+        <span class="ds-rotator-cardinal" id="ds-rotator-cardinal">S</span>
+      </div>
+      <div class="ds-rotator-quick" role="group" aria-label="Quick cardinal directions">
+        <button onclick="setArrayAzimuth(0)" data-az="0">N</button>
+        <button onclick="setArrayAzimuth(45)" data-az="45">NE</button>
+        <button onclick="setArrayAzimuth(90)" data-az="90">E</button>
+        <button onclick="setArrayAzimuth(135)" data-az="135">SE</button>
+        <button onclick="setArrayAzimuth(180)" data-az="180" class="primary">S</button>
+        <button onclick="setArrayAzimuth(225)" data-az="225">SW</button>
+        <button onclick="setArrayAzimuth(270)" data-az="270">W</button>
+        <button onclick="setArrayAzimuth(315)" data-az="315">NW</button>
+      </div>
+      <div class="ds-rotator-actions">
+        <button class="ds-rotator-reset" onclick="resetArrayRotation()" title="Clear all overrides and restore Google's roof-detected azimuths">↺ Reset to roof default</button>
+      </div>
     </div>
   </div>
 
@@ -6541,6 +6644,201 @@ function showMapControlsHint() {
   });
 }
 
+// ═════════════════════════════════════════════════════════════
+// ARRAY ROTATION TOOL — on-map compass dial for whole-array azimuth
+// ═════════════════════════════════════════════════════════════
+// A draggable compass widget that rotates EVERY active panel together
+// to a chosen azimuth. Works in both 2D (Google Maps polygons) and 3D
+// (Cesium entities) by writing to segmentAzOverride / panelAzOverride
+// and triggering the standard render path.
+//
+// Mental model: this is the "everything south" knob. Flat-roof detection
+// already auto-applies south at load time; this widget lets the user
+// dial in any azimuth they want (e.g. 195° for slight SW tilt to
+// catch the late-afternoon production peak that better matches PA
+// evening load profiles).
+
+function toggleArrayRotator() {
+  const panel = document.getElementById('ds-rotator-panel');
+  if (!panel) return;
+  const opening = panel.style.display === 'none' || !panel.style.display;
+  panel.style.display = opening ? 'block' : 'none';
+  if (opening) {
+    if (!DS_STATE._rotatorDialBound) {
+      _bindRotatorDial();
+      DS_STATE._rotatorDialBound = true;
+    }
+    updateRotatorUI(getCurrentArrayAzimuth());
+  }
+}
+
+// Compute the current dominant azimuth across active panels using a
+// circular mean (so a panel at 359° and one at 1° average to 0°, not 180°).
+function getCurrentArrayAzimuth() {
+  if (!DS_STATE.allPanels || !DS_STATE.allPanels.length) {
+    return 180;
+  }
+  let sumSin = 0, sumCos = 0, count = 0;
+  const active = DS_STATE.activePanels;
+  for (const p of DS_STATE.allPanels) {
+    // Prefer active panels; fall back to all panels if none active
+    if (active && active.size > 0 && !active.has(p.idx)) continue;
+    const ang = getPanelAngles(p);
+    const rad = ang.azimuth * Math.PI / 180;
+    sumSin += Math.sin(rad);
+    sumCos += Math.cos(rad);
+    count++;
+  }
+  if (count === 0) {
+    // No active panels — fall back to dominant roof segment
+    if (DS_STATE.roofSegments && DS_STATE.roofSegments.length) {
+      const dom = DS_STATE.roofSegments.reduce((a, b) => a.areaMeters2 > b.areaMeters2 ? a : b);
+      const idx = DS_STATE.roofSegments.indexOf(dom);
+      return Math.round(DS_STATE.segmentAzOverride.get(idx) ?? dom.azimuthDeg ?? 180);
+    }
+    return 180;
+  }
+  let avgDeg = Math.atan2(sumSin / count, sumCos / count) * 180 / Math.PI;
+  if (avgDeg < 0) avgDeg += 360;
+  return Math.round(avgDeg) % 360;
+}
+
+// Set the entire array's azimuth. Writes per-segment overrides for every
+// roof segment that has at least one active panel, plus per-panel overrides
+// for any active ground panels.
+function setArrayAzimuth(deg) {
+  deg = ((Math.round(deg) % 360) + 360) % 360;  // normalize to 0–359
+  if (!DS_STATE.allPanels || !DS_STATE.allPanels.length) {
+    updateRotatorUI(deg);
+    return;
+  }
+  // Which segments host active panels? (Apply to all of them — that's "the array")
+  const segsToRotate = new Set();
+  const groundPanelsToRotate = [];
+  const active = DS_STATE.activePanels;
+  const useAll = !active || active.size === 0;
+  for (const p of DS_STATE.allPanels) {
+    if (!useAll && !active.has(p.idx)) continue;
+    if (p.isGround) groundPanelsToRotate.push(p.idx);
+    else if (p.segmentIndex != null) segsToRotate.add(p.segmentIndex);
+  }
+  segsToRotate.forEach(segIdx => DS_STATE.segmentAzOverride.set(segIdx, deg));
+  groundPanelsToRotate.forEach(idx => DS_STATE.panelAzOverride.set(idx, deg));
+
+  // If the rotator was opened with no active panels, apply to ALL segments
+  // as a global default — otherwise the dial would do nothing on first open.
+  if (segsToRotate.size === 0 && groundPanelsToRotate.length === 0) {
+    DS_STATE.roofSegments.forEach((_, i) => DS_STATE.segmentAzOverride.set(i, deg));
+  }
+
+  renderPanels();
+  if (typeof refresh3DIfActive === 'function') refresh3DIfActive();
+
+  // Mirror to the manual azimuth input in the Panel Layout panel
+  const azInput = document.getElementById('ds-azimuth');
+  if (azInput) azInput.value = deg;
+
+  updateRotatorUI(deg);
+}
+
+function resetArrayRotation() {
+  // Wipe every override the rotator could have written
+  DS_STATE.segmentAzOverride.clear();
+  for (const p of DS_STATE.allPanels || []) {
+    if (p.isGround) DS_STATE.panelAzOverride.delete(p.idx);
+  }
+  // Re-apply flat-roof auto-align so a "reset" doesn't undo the smart default
+  if (DS_STATE.roofSegments && DS_STATE.roofSegments.length) {
+    const trueSouthAz = (DS_STATE.coords && DS_STATE.coords.lat < 0) ? 0 : 180;
+    DS_STATE.roofSegments.forEach((seg, i) => {
+      if (seg.isFlat) {
+        DS_STATE.segmentAzOverride.set(i, trueSouthAz);
+      }
+    });
+  }
+  renderPanels();
+  if (typeof refresh3DIfActive === 'function') refresh3DIfActive();
+  updateRotatorUI(getCurrentArrayAzimuth());
+}
+
+// Render the rotator UI to a given azimuth value (0–359)
+function updateRotatorUI(deg) {
+  deg = ((Math.round(deg) % 360) + 360) % 360;
+  const arrow = document.getElementById('ds-rotator-arrow');
+  const input = document.getElementById('ds-rotator-input');
+  const card = document.getElementById('ds-rotator-cardinal');
+  if (arrow) arrow.setAttribute('transform', `rotate(${deg} 100 100)`);
+  if (input && document.activeElement !== input) input.value = deg;
+  if (card) card.textContent = _azimuthToCardinal(deg);
+  // Highlight the cardinal quick-button closest to this azimuth (within 5°)
+  document.querySelectorAll('.ds-rotator-quick button').forEach(b => {
+    const a = parseInt(b.dataset.az, 10);
+    const diff = Math.min(Math.abs(a - deg), 360 - Math.abs(a - deg));
+    b.classList.toggle('primary', diff <= 5);
+  });
+}
+
+function _azimuthToCardinal(deg) {
+  // 8-point cardinal (matches the quick buttons)
+  const dirs = ['N','NE','E','SE','S','SW','W','NW'];
+  return dirs[Math.round(deg / 45) % 8];
+}
+
+// Wire up drag-to-rotate on the SVG dial (mouse + touch).
+// Pointer angle = atan2(dx, -dy) — gives clockwise-from-north.
+function _bindRotatorDial() {
+  const dial = document.getElementById('ds-rotator-dial');
+  const input = document.getElementById('ds-rotator-input');
+  if (!dial) return;
+  let dragging = false;
+  function pointerAz(ev) {
+    const rect = dial.getBoundingClientRect();
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top + rect.height / 2;
+    const t = ev.touches && ev.touches[0] ? ev.touches[0] : ev;
+    const dx = t.clientX - cx;
+    const dy = t.clientY - cy;
+    let a = Math.atan2(dx, -dy) * 180 / Math.PI;
+    if (a < 0) a += 360;
+    return a;
+  }
+  function start(ev) {
+    dragging = true;
+    dial.classList.add('dragging');
+    ev.preventDefault();
+    setArrayAzimuth(pointerAz(ev));
+  }
+  function move(ev) {
+    if (!dragging) return;
+    ev.preventDefault();
+    setArrayAzimuth(pointerAz(ev));
+  }
+  function end() {
+    if (!dragging) return;
+    dragging = false;
+    dial.classList.remove('dragging');
+  }
+  dial.addEventListener('mousedown', start);
+  document.addEventListener('mousemove', move);
+  document.addEventListener('mouseup', end);
+  dial.addEventListener('touchstart', start, { passive: false });
+  document.addEventListener('touchmove', move, { passive: false });
+  document.addEventListener('touchend', end);
+  document.addEventListener('touchcancel', end);
+
+  // Numeric input — type any azimuth (0–359)
+  if (input) {
+    input.addEventListener('input', () => {
+      const v = parseInt(input.value, 10);
+      if (!isNaN(v)) setArrayAzimuth(v);
+    });
+    input.addEventListener('blur', () => {
+      const v = parseInt(input.value, 10);
+      if (isNaN(v)) input.value = getCurrentArrayAzimuth();
+    });
+  }
+}
+
 function toggleMapView() {
   const btn = document.getElementById('ds-view-toggle');
   const compass = document.getElementById('ds-compass');
@@ -7264,6 +7562,61 @@ async function fetchSolarInsights() {
     DS_STATE.obstructions = [];
   }
 
+  // ═══════════════════════════════════════════════════════════════
+  // FLAT-ROOF DETECTION & AUTO-ALIGN TO TRUE SOUTH
+  // ═══════════════════════════════════════════════════════════════
+  // Industry standard: pitch < 5° = "flat roof" (Google sometimes
+  // reports tiny micro-pitches like 0.4° or 2.1° for what are really
+  // flat membrane / EPDM / TPO roofs). On a flat roof the segment's
+  // reported azimuth is essentially arbitrary — calculated from
+  // imperceptible drainage slopes — so panel orientation needs to
+  // be set by US, not by Google's segment metadata.
+  //
+  // For every LARGE flat segment we automatically:
+  //   • Set azimuth to true south (180° N. hemi, 0° S. hemi)
+  //   • Set tilt to 10° — standard PA flat-roof racking angle
+  //     (good compromise: yield vs. snow shedding vs. wind loading)
+  //
+  // The user can override any of this from:
+  //   • The on-map "Array Rotation" tool (FAB → compass dial)
+  //   • The right-click context menu on any panel (per-segment)
+  //   • The manual tilt/azimuth fields in the Panel Layout panel
+  const FLAT_PITCH_MAX_DEG = 5;
+  const FLAT_MIN_AREA_M2 = 30;      // ~325 ft² — bumps & dormers don't count
+  const FLAT_DEFAULT_TILT_DEG = 10;
+  const trueSouthAzDeg = (DS_STATE.coords && DS_STATE.coords.lat < 0) ? 0 : 180;
+  let flatRoofsAligned = 0;
+  DS_STATE.roofSegments.forEach((seg, i) => {
+    if (seg.pitchDeg < FLAT_PITCH_MAX_DEG && seg.areaMeters2 >= FLAT_MIN_AREA_M2) {
+      seg.isFlat = true;
+      DS_STATE.segmentAzOverride.set(i, trueSouthAzDeg);
+      DS_STATE.segmentTiltOverride.set(i, FLAT_DEFAULT_TILT_DEG);
+      flatRoofsAligned++;
+    }
+  });
+  // Force LANDSCAPE orientation for every panel that lives on a flat segment.
+  // Industry standard for PA flat-roof tilt-rack systems (IronRidge BX, UniRac
+  // RM, EcoFasten, etc.): panels mount landscape so the long axis runs
+  // east-west. When the rack tilts the panels up to face south, this keeps
+  // the array low to the roof, minimizes wind loading on each tilt leg, and
+  // tightens the inter-row N-S spacing needed to avoid self-shading.
+  //
+  // Google's API may have placed individual panels as PORTRAIT based on its
+  // visual detection of the flat surface — we override that here so the BOM,
+  // racking takeoff, and visual all consistently reflect the real install.
+  for (const p of DS_STATE.allPanels) {
+    if (p.isGround) continue;
+    const seg = DS_STATE.roofSegments[p.segmentIndex];
+    if (seg && seg.isFlat) {
+      p.originalOrientation = p.orientation;  // preserve in case we want to restore later
+      p.orientation = 'LANDSCAPE';
+    }
+  }
+  DS_STATE.flatRoofsAligned = flatRoofsAligned;
+  if (flatRoofsAligned > 0) {
+    console.log(`[DS] Flat-roof auto-align: ${flatRoofsAligned} segment(s) → ${trueSouthAzDeg}° az / ${FLAT_DEFAULT_TILT_DEG}° tilt / LANDSCAPE orientation`);
+  }
+
   // Also pre-compute a "best config" count from solarPanelConfigs
   const configs = sp.solarPanelConfigs || [];
   const bestConfig = configs.length ? configs[configs.length - 1] : null;
@@ -7295,16 +7648,27 @@ async function fetchSolarInsights() {
   document.getElementById('ds-slider-max').textContent = DS_STATE.maxPanels.toLocaleString();
   document.getElementById('ds-slider-maxlabel').textContent = DS_STATE.maxPanels.toLocaleString();
 
-  // Auto-populate tilt/azimuth from dominant segment
+  // Auto-populate tilt/azimuth from dominant segment — respect any
+  // flat-roof auto-align overrides we just applied
   if (DS_STATE.roofSegments.length) {
     const dom = DS_STATE.roofSegments.reduce((a, b) => a.areaMeters2 > b.areaMeters2 ? a : b);
-    document.getElementById('ds-tilt').value = Math.round(dom.pitchDeg);
-    document.getElementById('ds-azimuth').value = Math.round(dom.azimuthDeg);
+    const domIdx = DS_STATE.roofSegments.indexOf(dom);
+    const effTilt = DS_STATE.segmentTiltOverride.get(domIdx) ?? dom.pitchDeg;
+    const effAz = DS_STATE.segmentAzOverride.get(domIdx) ?? dom.azimuthDeg;
+    document.getElementById('ds-tilt').value = Math.round(effTilt);
+    document.getElementById('ds-azimuth').value = Math.round(effAz);
   }
 
-  setStatus('ready', `${DS_STATE.roofSegments.length} segments · ${DS_STATE.maxPanels} max panels`);
+  const flatMsg = flatRoofsAligned > 0
+    ? ` · ${flatRoofsAligned} flat roof${flatRoofsAligned > 1 ? 's' : ''} aligned south`
+    : '';
+  setStatus('ready', `${DS_STATE.roofSegments.length} segments${flatMsg} · ${DS_STATE.maxPanels} max panels`);
   renderPanels();
   showLegend();
+
+  // Now that panels exist, reveal the on-map Array Rotation tool
+  const rotBtn = document.getElementById('ds-rotate-btn');
+  if (rotBtn) rotBtn.style.display = 'inline-flex';
 
   // If a bill was uploaded before solar insights returned, now we can size against it
   refreshOffsetPresets();
